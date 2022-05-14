@@ -4,6 +4,5 @@ export default function rows(keyboard) {
     row.classList.add(`row_${i}`);
     row.classList.add('row');
     keyboard.append(row);
-    // console.log(row);
   }
 }

@@ -1,27 +1,3 @@
-import {
-  keysItem,
-  space,
-  shiftRight,
-  shift,
-  capslock,
-  ctrlRight,
-  ctrl,
-  altRight,
-  alt,
-  enter,
-  tab,
-  backspace,
-  del,
-  win,
-  up,
-  down,
-  left,
-  right,
-  i,
-} from './variables';
-
-console.log(i);
-
 export default function events(e) {
   for (let i = 0; i < keysItem.length; i++) {
     if (

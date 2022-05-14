@@ -133,13 +133,20 @@ h3 {
   height: 65px;
   background: #ffffff;
   border-radius: 5px;
-  border: 1px solid #9eada4;
+  border: 1px solid #adc1b5;
   text-align: center;
   font-size: 15px;
   margin: 0 7px 7px 0;
   padding-top: 3px;
   transition: all 0.2s;
-  font-weight: 500;
+  font-weight: 700;
+  color: #4c6756;
+}
+
+.key:hover {
+  transition: all 0.3s;
+  color: #97c5a8;
+  cursor: pointer;
 }
 
 .key_yo {
@@ -159,12 +166,18 @@ h3 {
   height: 65px;
   background: #acc1ae;
   border-radius: 5px;
-  border: 1px solid #9eada4;
+  border: 1px solid #b4c6bb;
   text-align: center;
   font-size: 15px;
   margin: 0 7px 7px 0;
   padding: 3px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #4c6756;
+}
+.keyFunc:hover {
+  transition: all 0.3s;
+  color: #71967f;
+  cursor: pointer;
 }
 
 .key_shift {
@@ -195,7 +208,8 @@ h3 {
   font-size: 15px;
   margin: 0 0px 7px 0;
   padding: 3px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #4c6756;
 }
 
 .key_top {
@@ -250,4 +264,9 @@ h3 {
 }
 .active {
   background-color: rgb(69, 111, 88);
+}
+
+.capsActive {
+  background-color: rgb(156, 29, 29);
+  color: rgb(156, 29, 29);
 }
