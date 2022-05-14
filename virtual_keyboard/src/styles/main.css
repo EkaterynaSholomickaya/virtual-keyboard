@@ -1,0 +1,297 @@
+* {
+  font-family: Arial, serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #edf4ee;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+h1 {
+  font-size: 25px;
+  margin: 30px auto;
+  font-weight: 600;
+  color: #4b544e;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 30px auto;
+  font-weight: 600;
+  color: #4b544e;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 30px auto;
+  font-weight: 600;
+  color: #4b544e;
+}
+
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+.wrapper {
+  max-width: 1200;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  height: 1500px;
+}
+
+.keyboard {
+  display: block;
+  width: 1080px;
+  height: 378px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #cbded3;
+  border-radius: 38px;
+  padding: 12px 13px 12px;
+}
+
+.key {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 66px;
+  height: 65px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #9eada4;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 7px 7px 0;
+  padding-top: 3px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.key_yo {
+  border-radius: 35px 5px 5px 5px;
+}
+
+.row {
+  width: 100%;
+  height: 72px;
+}
+
+.keyFunc {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 66px;
+  height: 65px;
+  background: #acc1ae;
+  border-radius: 5px;
+  border: 1px solid #9eada4;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 7px 7px 0;
+  padding: 3px;
+  font-weight: 500;
+}
+
+.key_shift {
+  width: 122px;
+}
+
+.key_shift_right {
+  width: 122px;
+  margin-right: 0;
+}
+
+.key_del {
+  width: 45px;
+  margin-right: 0px;
+}
+
+.key_tab {
+  width: 50px;
+}
+
+.backspace {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 103px;
+  height: 65px;
+  border-radius: 5px 35px 5px 5px;
+  border: 1px solid #9eada4;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 0px 7px 0;
+  padding: 3px;
+  font-weight: 500;
+}
+
+.key_top {
+  width: 65px;
+}
+
+.key_left {
+  margin-bottom: 0;
+}
+
+.key_bottom {
+  margin-bottom: 0;
+}
+
+.key_right {
+  margin-bottom: 0;
+}
+
+.key_enter {
+  width: 120px;
+  margin-right: 0;
+}
+
+.key_capslock {
+  width: 122px;
+}
+
+.row_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.key_space {
+  margin-bottom: 0;
+  width: 500px;
+}
+
+.key_alt {
+  margin-bottom: 0;
+}
+
+.key_alt_right {
+  margin-bottom: 0;
+}
+
+.key_ctrl {
+  margin-bottom: 0;
+  width: 65px;
+  border-radius: 5px 5px 5px 35px;
+}
+
+.key_ctrl_right {
+  margin-bottom: 0;
+  width: 50px;
+  border-radius: 5px 5px 35px 5px;
+  margin-right: 0;
+}
+
+.key_win {
+  margin-bottom: 0;
+}
+
+.active {
+  background-color: #456f58;
+}
+/*# sourceMappingURL=main.css.map */
